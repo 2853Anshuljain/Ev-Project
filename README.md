@@ -2,7 +2,7 @@
 Electric Vehicle (EV) Market Analysis
 This project analyzes the Electric Vehicle (EV) population dataset to understand market trends, geographical distribution, and key players in the industry. The analysis also includes a forecast of future EV market size based on historical registration data.
 
-Project Overview
+#Project Overview
 The analysis explores the following aspects of the EV market:
 
 EV Adoption Over Time: Visualizing the growth of EV registrations by model year.
@@ -15,7 +15,7 @@ Electric Range Analysis: Examining the distribution and evolution of EV ranges.
 
 Market Size Forecasting: Estimating the future growth of the EV market using an exponential growth model.
 
-Visualizations
+#Visualizations
 The notebook includes several visualizations to illustrate the findings:
 
 EV Adoption Over Time: A bar chart showing the number of vehicles registered per model year.
