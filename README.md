@@ -1,4 +1,4 @@
-# Ev-Project
+# Ev-Market Analysis
 Electric Vehicle (EV) Market Analysis
 This project analyzes the Electric Vehicle (EV) population dataset to understand market trends, geographical distribution, and key players in the industry. The analysis also includes a forecast of future EV market size based on historical registration data.
 
@@ -16,21 +16,42 @@ Electric Range Analysis: Examining the distribution and evolution of EV ranges.
 Market Size Forecasting: Estimating the future growth of the EV market using an exponential growth model.
 
 #Visualizations
-The notebook includes several visualizations to illustrate the findings:
+<details>
+<summary><strong>1. EV Adoption Over Time</strong></summary>
+<p>A bar chart showing the number of vehicles registered per model year.</p>
+</details>
 
-EV Adoption Over Time: A bar chart showing the number of vehicles registered per model year.
+<details>
+<summary><strong>2. Top Cities in Top Counties by EV Registrations</strong></summary>
+<p>A bar chart displaying the cities with the most EVs in the highest-penetration counties.</p>
+</details>
 
-Top Cities in Top Counties by EV Registrations: A bar chart displaying the cities with the most EVs in the highest-penetration counties.
+<details>
+<summary><strong>3. Distribution of Electric Vehicle Types</strong></summary>
+<p>A bar chart comparing the popularity of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).</p>
+</details>
 
-Distribution of Electric Vehicle Types: A bar chart comparing the popularity of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).
+<details>
+<summary><strong>4. Top 10 Popular EV Makes</strong></summary>
+<p>A bar chart showcasing the market leaders in EV manufacturing.</p>
+</details>
 
-Top 10 Popular EV Makes: A bar chart showcasing the market leaders in EV manufacturing.
+<details>
+<summary><strong>5. Top Models in Top 3 Makes</strong></summary>
+<p>A detailed look at the most popular models from the top three manufacturers.</p>
+</details>
 
-Top Models in Top 3 Makes: A detailed look at the most popular models from the top three manufacturers.
+<details>
+<summary><strong>6. Distribution of Electric Vehicle Ranges</strong></summary>
+<p>A histogram showing the frequency of different electric ranges.</p>
+</details>
 
-Distribution of Electric Vehicle Ranges: A histogram showing the frequency of different electric ranges.
+<details>
+<summary><strong>7. Current & Estimated EV Market Growth</strong></summary>
+<p>A line chart that plots historical data and forecasted EV registrations.</p>
+</details>
 
-Current & Estimated EV Market Growth: A line chart that plots historical data and forecasted EV registrations.
+
 
 Methodology
 The analysis is conducted using Python with the following libraries:
