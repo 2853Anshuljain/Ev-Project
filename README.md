@@ -1,70 +1,123 @@
-# Ev-Market Analysis
-Electric Vehicle (EV) Market Analysis
-This project analyzes the Electric Vehicle (EV) population dataset to understand market trends, geographical distribution, and key players in the industry. The analysis also includes a forecast of future EV market size based on historical registration data.
+# ⚡ Electric Vehicle (EV) Market Analysis
 
-#Project Overview
-The analysis explores the following aspects of the EV market:
+A comprehensive data analytics project that explores and visualizes the growth and distribution of Electric Vehicles (EVs) using *Python* and popular data science libraries.
+The analysis highlights *market trends, geographical patterns, top manufacturers,* and provides a *forecast of future EV market growth* based on historical registration data.
 
-EV Adoption Over Time: Visualizing the growth of EV registrations by model year.
+---
 
-Geographical Distribution: Identifying the counties and cities with the highest EV registrations.
+## 🧠 Project Overview
 
-Vehicle Types and Makes: Analyzing the market share of different EV types (BEV vs. PHEV) and top manufacturers.
+With the global push toward sustainable energy and green mobility, understanding the EV market landscape is crucial.
+This project analyzes a detailed *EV Population dataset* to uncover insights into *adoption trends, regional dominance, and manufacturer performance,* while predicting the market’s future trajectory through data-driven modeling.
 
-Electric Range Analysis: Examining the distribution and evolution of EV ranges.
+---
 
-Market Size Forecasting: Estimating the future growth of the EV market using an exponential growth model.
+## 🚀 Features
 
-#Visualizations
-<details>
-<summary><strong>1. EV Adoption Over Time</strong></summary>
-<p>A bar chart showing the number of vehicles registered per model year.</p>
-</details>
+* 📈 **EV Adoption Over Time** — Visualizes growth trends in EV registrations by model year.
+* 🌍 **Geographical Distribution** — Identifies leading counties and cities in EV adoption.
+* 🚗 **Vehicle Types & Makes Analysis** — Compares BEV (Battery Electric Vehicles) and PHEV (Plug-in Hybrid Electric Vehicles) market shares.
+* 🔋 **Electric Range Study** — Explores how electric range has evolved over time.
+* 🏭 **Top Manufacturers & Models** — Highlights top-performing EV makes and models.
+* 🔮 **Market Forecasting** — Uses an *exponential growth model* to predict EV registrations for the next 6 years.
+* 📊 **Interactive Visualizations** — Created using *Matplotlib* and *Seaborn* for clear and intuitive insights.
 
-<details>
-<summary><strong>2. Top Cities in Top Counties by EV Registrations</strong></summary>
-<p>A bar chart displaying the cities with the most EVs in the highest-penetration counties.</p>
-</details>
+---
 
-<details>
-<summary><strong>3. Distribution of Electric Vehicle Types</strong></summary>
-<p>A bar chart comparing the popularity of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).</p>
-</details>
+## 🧩 Tech Stack
 
-<details>
-<summary><strong>4. Top 10 Popular EV Makes</strong></summary>
-<p>A bar chart showcasing the market leaders in EV manufacturing.</p>
-</details>
+| Category               | Technologies                              |
+| ---------------------- | ----------------------------------------- |
+| *Programming Language* | Python                                    |
+| *Libraries*            | Pandas, NumPy, Matplotlib, Seaborn, SciPy |
+| *Modeling Approach*    | Exponential Growth Forecasting            |
+| *Environment*          | Jupyter Notebook                          |
 
-<details>
-<summary><strong>5. Top Models in Top 3 Makes</strong></summary>
-<p>A detailed look at the most popular models from the top three manufacturers.</p>
-</details>
+---
 
-<details>
-<summary><strong>6. Distribution of Electric Vehicle Ranges</strong></summary>
-<p>A histogram showing the frequency of different electric ranges.</p>
-</details>
+## 📊 Workflow
 
-<details>
-<summary><strong>7. Current & Estimated EV Market Growth</strong></summary>
-<p>A line chart that plots historical data and forecasted EV registrations.</p>
-</details>
+### 1️⃣ Data Collection
 
+* Used the **EV Population dataset** containing registration records, vehicle specifications, and geographic data.
 
+### 2️⃣ Data Preprocessing
 
-Methodology
-The analysis is conducted using Python with the following libraries:
+* Handled missing values and standardized data formats.
+* Filtered relevant columns for analysis (make, model year, vehicle type, range, county, city).
 
-pandas: For data manipulation and analysis.
+### 3️⃣ Exploratory Data Analysis (EDA)
 
-numpy: For numerical operations.
+* Visualized trends in EV adoption, popular manufacturers, and range improvements.
+* Compared BEVs vs. PHEVs across different regions and years.
 
-matplotlib & seaborn: For data visualization.
+### 4️⃣ Forecasting Model
 
-scipy: For curve fitting to forecast market growth.
+* Applied **curve fitting** using *SciPy’s exponential model* to project future EV registrations.
+* Generated predictions up to **2030** based on trends up to 2023.
 
-The forecasting model uses an exponential growth function fit to historical data up to 2023 to project registrations for the next six years.
+### 5️⃣ Visualization
 
-How to Use
-To run this analysis, you will need Python and the libraries listed above. You can then open and run the Jupyter notebook ev proj (1).ipynb to see the full analysis.
+* Created seven clear, insight-rich visualizations:
+
+  1. EV Adoption Over Time
+  2. Top Cities and Counties by Registrations
+  3. Distribution of EV Types
+  4. Top 10 EV Manufacturers
+  5. Top Models in Leading Makes
+  6. Electric Range Distribution
+  7. Estimated EV Market Growth
+
+---
+
+## 🧰 Installation & Usage
+
+### 📦 Clone the Repository
+
+```bash
+git clone https://github.com/2853Anshuljain/Ev-Project.git
+cd Ev-Project
+```
+
+### 🧑‍💻 Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy
+```
+
+### ▶ Run the Analysis
+
+Open the Jupyter Notebook and run all cells to view the complete analysis:
+
+```bash
+jupyter notebook "ev proj (1).ipynb"
+```
+
+---
+
+## 📈 Results & Insights
+
+* EV registrations show **exponential growth** from 2010 to 2023.
+* **BEVs dominate** the market share over PHEVs in recent years.
+* Leading manufacturers include **Tesla, Nissan, and Chevrolet.**
+* The **average EV range** has improved significantly, showing technological advancement.
+* Forecast predicts **continued rapid EV adoption** over the next decade.
+
+---
+
+## 🌍 Future Scope
+
+* Integrate **geospatial visualizations** using Plotly or Folium.
+* Extend forecasting with **ARIMA or Prophet** for time-series accuracy.
+* Build an interactive **dashboard using Streamlit** for dynamic exploration.
+
+---
+
+## 🧑‍🔬 Author
+
+**Anshul Jain**
+B.Tech Mechanical Engineering, NIT Srinagar
+*Data Analytics & Machine Learning Enthusiast*
+📧 [anshuljain2853@gmail.com](mailto:anshuljain2853@gmail.com)
+🔗 [GitHub: 2853Anshuljain](https://github.com/2853Anshuljain)
+
